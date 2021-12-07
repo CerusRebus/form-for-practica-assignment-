@@ -41,19 +41,17 @@ body{
   color: #405282;
   margin-bottom:
 }
-.container .form .universal_0{
-  width: 100%;
-  padding: 20px 0px 10px 15px;
-  border-width: 0px 0px 3px 0px;
-  border-style: solid;
-  border-color: #405282;
-}
-.container .form .universal_1{
+.container .form .universal{
   width: 100%;
   padding: 20px 0px 10px 15px;
   border-width: 0px 0px 3px 0px;
   border-style: solid;
   border-color: #808080;;
+}
+.container .form .universal:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 3px solid #405282;
 }
 .row{
   display: flex;
